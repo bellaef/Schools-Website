@@ -1,18 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins;
+    background: #FAFAFA;
+}
 
 /* NAVBAR*/
 .navbar{
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
+    background: #FAFAFA;
+    border-radius: 10px;
 }
 
 .logo{
     margin-right: 5px;
 }
 
-.navbar-brand{
+.navbar .navbar-brand{
     color: #1FA7FF;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand:hover{
+    color: #1b8bd6;
+    font-weight: bold;
 }
 
 .nav-item{
@@ -23,10 +41,19 @@
     position: relative;
 }
 
-.nav-item:hover .nav-link,
-.nav-item.active .nav-link{
+.nav-item:hover .nav-link{
     color: #2ECB89;
 }
+
+.nav-item .nav-link.active{
+    color: #2ECB89;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #2ECB89;
+}
+
 
 @media (min-width: 991px){
 .nav-item::before{
@@ -74,4 +101,85 @@
 .navbar-toggler:focus, .btn-close:focus{
     box-shadow: none;
     outline: none;
+}
+
+/*Beranda*/
+.container-fluid{
+    background: #FAFAFA;
+}
+
+.container-fluid .content1{
+    background: #FAFAFA;
+    align-items: left; 
+    justify-content: left; 
+    margin-top: 25%;
+    margin-left: 70px;
+    text-align: left;
+}
+
+.elemen1{
+    margin-top: 0%;
+    margin-left: 15px;
+}
+
+.content1 h1{
+    margin-top: 15px;
+    color: #404040;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.content1 p{
+    margin-top: 15px;
+    margin-right: 120px;
+    color: #787878;
+    font-size: 20px;
+}
+
+.content1 a{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 40px;
+    font-size: 16px;
+    font-family: Poppins;
+    background-color: #2ECB89;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease; /* Menengahkan teks */
+}
+
+.content1 a:hover{
+    background-color:#2bbe81;
+}
+
+.image{
+    margin-top: 100px;
+    position: relative;
+}
+
+.gambar{
+    position: absolute;
+}
+
+.frame{
+    max-width: 400px;
+    top: 0;
+    left: 0;
+}
+
+.mas2{
+    max-width: 400px;
+    margin-top: 40px;
+    top: 0;
+    left: 0;
+}
+
+.space .container-fluid{
+    background: #FAFAFA;
+    height: 72px;
+}
+.content2 .container-fluid{
+    background: #153F5A;
+
 }

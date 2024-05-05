@@ -10,49 +10,97 @@
     <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
 </head>
 <body>
-<div class="hero">
-<!---NAVBAR-->
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container-fluid">
-      <img src="assets/img/logo.png" class="logo">
-      <a class="navbar-brand me-auto" href="beranda.html">Schools</a>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <img src="assets/img/logo.png" class="logo">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Schools</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  <header>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <img src="assets/img/logo.png" class="logo">
+        <a class="navbar-brand me-auto" href="beranda.html">Schools</a>
+        <!-- Offcanvas untuk navbar -->
+        <!-- konten navbar -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <img src="assets/img/logo.png" class="logo">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Schools</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link mx-lg-3 active text-success" aria-current="page" href="beranda.html">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-3" href="tentang_kita.html">Tentang Kita</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-3" href="#">Berita</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-3" href="#">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-3" href="#">Kontak</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link mx-lg-3 active text-success" aria-current="page" href="beranda.html">Beranda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-lg-3" href="tentang_kita.html">Tentang Kita</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-lg-3" href="#">Berita</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-lg-3" href="#">Galeri</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-lg-3" href="#">Kontak</a>
-            </li>
-          </ul>
+        <!-- Tombol untuk toggling offcanvas -->
+        <a href="#" class="PPOB-button">PPOB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- Navbar END -->
+  </header>
+
+  <main>
+  <!-- Konten utama -->
+  <!-- Tuntut Ilmu -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-7">
+        <div class="content1">
+          <div class="elemen">
+            <img src="assets/img/beranda/Ellipse 1.png" class="elemen1"><br>
+            <img src="assets/img/beranda/Polygon 1.png" class="elemen2">
+            <img src="assets/img/beranda/Rectangle 5.png" class="elemen3">
+          </div>
+          <h1>Tuntut Ilmu Untuk Masa Depan Yang Cerah</h1>
+          <p>Jelajahi semua pengetahuan dan ilmu bermanfaat yang berguna untuk kehidupan anda kedepannya agar lebih bermanfaat dalam hidup anda dan orang lain</p>
+          <a href="#">Mulai Belajar</a>
         </div>
       </div>
-      <a href="#" class="PPOB-button">PPOB</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <div class="col-5">
+        <div class="image">
+          <img src="assets/img/beranda/Frame 1018.png" class="gambar frame">
+          <img src="assets/img/beranda/image 16.png" class="gambar mas2">
+        </div>
+      </div>
     </div>
-  </nav>
-  <!--Navbar END-->
+  </div>
+
+  <!--space di bawah tombol mulai belajar-->
+  <div class="space">
+    <div class="container-fluid">
+    </div>
+  </div>
+    <!-- Keunggulan Sekolah -->
+    <div class="content2">
+    <div class="container-fluid">
+        <div class="row">
+          berru
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <!-- Konten footer -->
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</div>
 </body>
 </html>
