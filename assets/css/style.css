@@ -136,7 +136,7 @@ body{
     font-size: 20px;
 }
 
-.content1 a{
+.content1 a, .content3 a{
     display: inline-block;
     margin-top: 15px;
     padding: 12px 40px;
@@ -149,7 +149,7 @@ body{
     transition: background-color 0.3s ease; /* Menengahkan teks */
 }
 
-.content1 a:hover{
+.content1 a:hover, .content3 a:hover{
     background-color:#2bbe81;
 }
 
@@ -181,5 +181,68 @@ body{
 }
 .content2 .container-fluid{
     background: #153F5A;
+}
 
+.col-3 h2 {
+    margin-left: 0px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-size: 48px;
+}
+
+.p img{
+    max-width: 100px;
+    text-align: right;
+}
+
+
+.col-3 p{
+    text-align: right;
+    font-family: Poppins;
+    color:#ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.content3 .row{
+    padding-top: 150px;
+}
+
+.col-7 h2{
+    margin-top:25px;
+    font-size: 50px;
+    color: #444444;
+}
+
+.col-7 p{
+    color: #787878;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+.image2{
+    margin-top: 0px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.gambar{
+    position: absolute;
+}
+
+.frame2{
+    max-width: 390px;
+    top: 0;
+    left: 0;
+}
+
+.mbak2{
+    max-width: 370px;
+    margin-top: 105px;
+    top: 0;
+    margin-left: 10px;
 }
