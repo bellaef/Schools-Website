@@ -7,7 +7,7 @@
 
 body{
     font-family: Poppins;
-    background: #FAFAFA;
+    background: #ffffff;
 }
 
 /* NAVBAR*/
@@ -507,4 +507,29 @@ img.gambar.mas{
 
 .content9 p{
     color:#787878;
+}
+
+/* content10 */
+.content10{
+    background: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.content10 h2{
+    text-align: center;
+    color: #404040;
+    font-weight: bold;
+}
+
+.content10 p{
+    margin-top: 10px;
+    text-align: center;
+    color: #3A3B41;
+}
+
+.content10 video{
+    margin-top: 10px;
+    margin-left: 320px;
+    border-radius: 3%;
 }
