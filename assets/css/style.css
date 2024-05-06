@@ -45,7 +45,7 @@ body{
     color: #2ECB89;
 }
 
-.nav-item .nav-link.active{
+.nav-item .nav-link.active {
     color: #2ECB89;
 }
 
@@ -56,7 +56,7 @@ body{
 
 
 @media (min-width: 991px){
-.nav-item::before{
+.navbar ul li a::after{
     content: "";
     position: absolute;
     bottom: 0;
@@ -69,8 +69,8 @@ body{
     border-radius: 2px;
 }
 
-.nav-item:hover::before,
-.nav-link.active::before {
+.navbar ul li a:hover::after,
+.navbar ul li a.active::after {
     width: 30%;
     visibility: visible;
     background-color: #2ECB89;
@@ -136,7 +136,7 @@ body{
     font-size: 20px;
 }
 
-.content1 a, .content3 a{
+.content1 a, .content3 a, .content5 a{
     display: inline-block;
     margin-top: 15px;
     padding: 12px 40px;
@@ -149,7 +149,7 @@ body{
     transition: background-color 0.3s ease; /* Menengahkan teks */
 }
 
-.content1 a:hover, .content3 a:hover{
+.content1 a:hover, .content3 a:hover, .content5 a:hover{
     background-color:#2bbe81;
 }
 
@@ -313,8 +313,42 @@ body{
     font-size: 18px;
     text-align: left;
     margin: 0;
+    pointer-event: none;
   }
   
   .content5{
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-left: 70px;
   }
+
+  .content5 .row{
+    background: #ffffff;
+    height: 500px;
+}
+
+.content5 .col-7{
+    margin-right: 100px;
+}
+
+.content5  .col-5 .image3{
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
+}
+
+.content5  .col-5 .gambar{
+    position: absolute;
+}
+
+.content5  .col-5 .frame3{
+    max-width: 200px;
+    top: 0;
+    left: 0;
+}
+
+.content5  .col-5 .mbak3{
+    max-width: 200px;
+    margin-top: 105px;
+    top: 0;
+    margin-left: 10px;
+}
