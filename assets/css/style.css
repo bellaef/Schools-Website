@@ -539,7 +539,7 @@ img.gambar.mas{
 .content11{
     background: #FAFAFA;
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding-bottom: 60px;
     padding-left: 60px;
     padding-right: 60px;
 }
@@ -562,4 +562,9 @@ img.gambar.mas{
 
 .content11 img{
     max-width: 250px;
+}
+
+/* end content */
+.end-content.container{
+    background:#ffffff;
 }
