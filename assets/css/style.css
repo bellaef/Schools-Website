@@ -289,7 +289,7 @@ body{
     border-radius: 15px;
   }
   
-  .overlay {
+  .overlay, .overlay-text {
     position: absolute;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -301,6 +301,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #747474;
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
   }
 
   .overlay:hover, .overlay-text:hover{
@@ -308,13 +312,14 @@ body{
     color:#ffffff;
   }
 
-  .overlay-text {
+ /* .overlay-text {
     color: #747474;
     font-size: 18px;
     text-align: left;
     margin: 0;
     pointer-event: none;
   }
+  */
   
   .content5{
     margin-top: 150px;
@@ -357,4 +362,46 @@ img.gambar.mbak3{
 
 .col-5 p{
     font-size: 20px;
+}
+
+/* Content 6 */
+.content6 p a{
+    font-size: 20px;
+    color: #8F8F8F;
+    margin-right: 50px;
+}
+
+.content6 p a:hover{
+    color: #5F5F5F;
+}
+
+.content6 a{
+    text-decoration: none;
+    color: #2ECB89;
+    font-size: 18;
+    font-family: Poppins;
+}
+
+.content6 a:hover{
+    color:#25aa73;
+}
+
+.content6 p a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    width: 0;
+    height: 3px;
+    background-color: #2ECB89;
+    visibility: none;
+    transition: 0.2s ease;
+    border-radius: 2px;
+}
+
+.content6 p a:hover::after,
+.content6 p a.active::after {
+    width: 30%;
+    visibility: visible;
+    background-color: #2ECB89;
 }
