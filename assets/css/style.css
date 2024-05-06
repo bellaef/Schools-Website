@@ -326,29 +326,35 @@ body{
     height: 500px;
 }
 
-.content5 .col-7{
-    margin-right: 100px;
-}
-
-.content5  .col-5 .image3{
-    margin-top: 0px;
-    margin-left: 0px;
-    position: relative;
-}
-
-.content5  .col-5 .gambar{
+.content5  .col .gambar{
     position: absolute;
+    display: flex;
 }
 
-.content5  .col-5 .frame3{
-    max-width: 200px;
-    top: 0;
-    left: 0;
+.content5 .col-5{
+    margin-top: 40px;
 }
 
-.content5  .col-5 .mbak3{
-    max-width: 200px;
-    margin-top: 105px;
+img.gambar.frame3{
+    max-width: 400px;
+    margin-left: 150px;
+    transform: translateY(-5%);
+}
+
+img.gambar.mbak3{
+    max-width: 350px;
+    margin-left: 170px;
     top: 0;
-    margin-left: 10px;
+    transform: translateY(-3%);
+}
+
+.col-5 h2{
+    margin-top: 40px;
+    color: #404040;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.col-5 p{
+    font-size: 20px;
 }
