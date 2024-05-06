@@ -320,7 +320,9 @@ body{
     pointer-event: none;
   }
   */
-  
+
+
+  /* content5 */
   .content5{
     margin-top: 150px;
     margin-left: 70px;
@@ -404,4 +406,79 @@ img.gambar.mbak3{
     width: 30%;
     visibility: visible;
     background-color: #2ECB89;
+}
+
+/* Tentang Kita */
+/* content7 */
+
+.content7{
+    background: #FAFAFA;
+    padding-top: 150px;
+    padding-left: 70px;
+  }
+
+  .content7 .row{
+    height: 500px;
+}
+
+.content7 .col .gambar{
+    position: absolute;
+    display: flex;
+}
+
+.content7 .col-5{
+    margin-top: 60px;
+}
+
+img.gambar.frame4{
+    max-width: 400px;
+    margin-left: 150px;
+    transform: translateY(-5%);
+}
+
+img.gambar.mas{
+    max-width: 400px;
+    margin-left: 150px;
+    top: 0;
+    transform: translateY(11%);
+}
+
+.content7.col-5 h2{
+    margin-top: 40px;
+    color: #404040;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.content7.col-5 p{
+    font-size: 20px;
+}
+
+/* content8 */
+.content8{
+    background: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.content8.elemen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Untuk mengatur agar ikon berada di bawah h2 dan p */
+}
+.content8 h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+    color: #444444;
+}
+
+.content8 p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #787878;
 }
