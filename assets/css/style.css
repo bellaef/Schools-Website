@@ -520,12 +520,14 @@ img.gambar.mas{
     text-align: center;
     color: #404040;
     font-weight: bold;
+    font-size: 48px;
 }
 
 .content10 p{
     margin-top: 10px;
     text-align: center;
     color: #3A3B41;
+    font-size: 20px;
 }
 
 .content10 video{
@@ -534,3 +536,30 @@ img.gambar.mas{
 }
 
 /* content11 */
+.content11{
+    background: #FAFAFA;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.content11 h2{
+    font-size: 48px;
+    color: #404040;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content11 h4{
+    color:#404040
+}
+
+.content11 p{
+    color:#787878;
+}
+
+.content11 img{
+    max-width: 250px;
+}
