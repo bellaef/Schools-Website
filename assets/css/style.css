@@ -457,13 +457,13 @@ img.gambar.mas{
 /* content8 */
 .content8{
     background: #ffffff;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 80px;
     padding-right: 80px;
 }
 
-.content8.elemen {
+.content8.elemen img{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -481,4 +481,30 @@ img.gambar.mas{
     margin-top: 30px;
     font-size: 18px;
     color: #787878;
+}
+
+/* content9 */
+.content9{
+    background: #FAFAFA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content9 h2{
+    padding-top: 110px;
+    color: #444444;
+}
+
+.content9 .icon{
+    max-width: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.content9 h4{
+    color: #444444;
+}
+
+.content9 p{
+    color:#787878;
 }
