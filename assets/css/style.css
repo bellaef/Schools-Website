@@ -516,8 +516,9 @@ img.gambar.mas{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Untuk mengatur agar ikon berada di bawah h2 dan p */
+    flex-direction: column; 
 }
+
 .content8 h2{
     text-align: center;
     margin-top: 30px;
@@ -778,17 +779,6 @@ img.gambar.mas3{
     background: #ffffff;
 }
 
-.content14 .lihat-semua a{
-    text-decoration: none;
-    color: #2ECB89;
-    font-size: 18;
-    font-family: Poppins;
-}
-
-.content14 .lihat-semua a:hover{
-    color:#25aa73;
-}
-
 .content14 a p{
     text-decoration: none;
     font-size: 23px;
@@ -796,7 +786,7 @@ img.gambar.mas3{
     margin-inline: 20px;
 }
 
-.content14 a p:hover, .content6 a p.active{
+.content14 a p:hover, .content14 a p.active{
     color:#5f5f5f;
 }
 
@@ -804,17 +794,17 @@ img.gambar.mas3{
 .content14 .d-flex p.active::after{
     content: '';
     display: flex;
-    width: 50%;
+    width: 115%;
     height: 3px;
     background-color: #2ECB89;
-    transform: translateX(50%);
+    transform: translateX(-6%);
 }
 
 .content14 .row{
     padding-top: 15px;
 }
 
-.content14 .gambar2{
+.content14 .gambar3{
     padding-left: 130px;
     padding-right: 80px;
     padding-bottom: 80px;
@@ -825,18 +815,13 @@ img.gambar.mas3{
     border-radius: 7%;
     border: none;
     background: #ffffff;
-    margin-inline: 5px;
-}
-
-.content14 .card img{
-    border-top-right-radius: 5%;
-    border-top-left-radius: 5%;
+    margin-inline: 10px;
+    margin-bottom: 15px;
 }
 
 .content14 .card-body{
+    padding-left: 0px;
     max-height: 150px;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
 }
 
 .card-img-top{
@@ -848,14 +833,14 @@ img.gambar.mas3{
 
 .content14 .card-body h5{
     font-family: Poppins;
-    margin-top: 5px;
     font-size: 20px;
     color: #404040;
+    font-weight: 500;
 }
 
 .content14 .card-body p{
     font-family: Poppins;
-    margin-top: 7px;
+    margin-top: 5px;
     font-size: 16px;
     color: #787878;
 }
