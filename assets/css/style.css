@@ -263,7 +263,7 @@ body{
     font-weight: bold;
 }
 
-.content4 a{
+.content4 .col-2 a{
     position: inherit;
     font-size: 24px;
     font-weight: 500;
@@ -272,11 +272,55 @@ body{
     text-align: right;
 }
 
-.content4 a:hover{
+.content4 .col-2 a:hover{
     color:#2bbe81;
 }
 
-.image-container {
+.content4 .row{
+    padding-top: 15px;
+}
+
+.content4 .card{
+    padding-inline: 0px;
+    border-radius: 7%;
+    background: #C4C4C4;
+}
+
+.content4 .card img{
+    border-top-right-radius: 7%;
+    border-top-left-radius: 7%;
+}
+
+.content4 .card-body{
+    max-height: 60px;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+}
+
+.content4 .card:hover{
+    background:#2ECB89;
+}
+
+.card:hover .card-body, .card:hover .card-body span {
+    color: white; /* Ubah warna teks di dalam card saat mouse menyentuh */
+}
+
+.content4 .card-body .card-text{
+    margin-block: 0px;
+}
+
+.content4 span{
+    font-family: Poppins;
+    font-size: 16px;
+    color: black;
+}
+
+.content4 .panah{
+    margin-left: 120px;
+    color: black
+}
+
+/* .image-container {
     margin-top: 50px;
     position: relative;
     overflow: visible;
@@ -310,7 +354,7 @@ body{
   .overlay:hover, .overlay-text:hover{
     background-color: #2ECB89;
     color:#ffffff;
-  }
+  } */
 
  /* .overlay-text {
     color: #747474;
