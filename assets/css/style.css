@@ -419,6 +419,10 @@ img.gambar.mbak3{
     padding-bottom: 80px;
 }
 
+.content6 a h5:hover{
+    color: #2ECB89;
+}
+
 .content6 .card{
     padding-inline: 0px;
     border-radius: 7%;
@@ -666,6 +670,15 @@ footer p{
     color: #ffffff;
     font-size: 20px;
     text-align: left;
+}
+
+footer a p{
+    color: #ffff;
+    font-size: 20px;
+}
+
+footer a:hover{
+    color:#94c9ec;
 }
 
 footer h4{
