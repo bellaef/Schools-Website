@@ -250,7 +250,7 @@ body{
 .content4{
     margin-top: 100px;
     margin-left: 100px;
-    margin-right: 20px;
+    margin-right: 90px;
 }
 
 .content4 .row{
@@ -263,7 +263,7 @@ body{
     font-weight: bold;
 }
 
-.content4 .col-2 a{
+.content4 .col-3 a{
     position: inherit;
     font-size: 24px;
     font-weight: 500;
@@ -282,8 +282,9 @@ body{
 
 .content4 .card{
     padding-inline: 0px;
+    margin-inline: 9px;
     border-radius: 7%;
-    background: #C4C4C4;
+    background: #cac9c9;
 }
 
 .content4 .card img{
@@ -312,12 +313,22 @@ body{
 .content4 span{
     font-family: Poppins;
     font-size: 16px;
-    color: black;
+    color: #747474;
 }
 
 .content4 .panah{
-    margin-left: 120px;
-    color: black
+    margin-left: 170px;
+    color: #747474;
+}
+
+.content4 .panah2{
+    margin-left: 175px;
+    color: #747474;
+}
+
+.content4 .panah3{
+    margin-left: 225px;
+    color: #747474;
 }
 
   /* content5 */
@@ -420,7 +431,7 @@ img.gambar.mbak3{
 }
 
 .content6 .card-body{
-    max-height: 130px;
+    max-height: 150px;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
 }
@@ -434,12 +445,14 @@ img.gambar.mbak3{
 
 .content6 .card-body h5{
     font-family: Poppins;
+    margin-top: 5px;
     font-size: 20px;
     color: #404040;
 }
 
 .content6 .card-body p{
     font-family: Poppins;
+    margin-top: 7px;
     font-size: 16px;
     color: #787878;
 }
