@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins;
+    background: #ffffff;
+}
+
+.navbar{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.navbar-read-more,
+.container-fluid .navbar-read-more,
+.container-fluid .offcanvas .navbar-read-more{
+    background: #ffffff; /* Ganti 'your-color' dengan warna latar belakang yang diinginkan */
+    /* Aturan CSS lainnya */
+}
+.logo{
+    margin-right: 5px;
+}
+
+.navbar .navbar-brand{
+    color: #1FA7FF;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand:hover{
+    color: #1b8bd6;
+    font-weight: bold;
+}
+
+.nav-item{
+    color: #787878;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Poppins;
+    position: relative;
+}
+
+.nav-item:hover .nav-link{
+    color: #2ECB89;
+}
+
+.nav-item .nav-link.active {
+    color: #2ECB89;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #2ECB89;
+}
+
+
+@media (min-width: 991px){
+.navbar ul li a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    width: 0;
+    height: 3px;
+    background-color: #2ECB89;
+    visibility: none;
+    transition: 0.2s ease;
+    border-radius: 2px;
+}
+
+.navbar ul li a:hover::after,
+.navbar ul li a.active::after {
+    width: 30%;
+    visibility: visible;
+    background-color: #2ECB89;
+}
+}
+
+.PPOB-button{
+    background-color: #2ECB89;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 16px;
+    padding: 12px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0,5s background-color;
+}
+
+.PPOB-button:hover{
+    background-color:#2bbe81;
+}
+
+.navbar-toggler{
+    margin-left: 10px;
+    border: none;
+    font-size: 1.0rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+/* read more */
+.readmore .container-fluid{
+    background: #ffffff;
+}
+
+.readmore .row{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.readmore h1{
+    margin-top: 150px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #404040;
+}
+
+.readmore h4{
+    margin-top: 15px;
+    color: #787878;
+    font-size: 25px;
+}
+
+.readmore img{
+    margin-top: 30px;
+    max-width:85%;
+    margin-bottom: 30px;
+}
+
+.readmore p{
+    margin-top: 7px;
+    color: #787878;
+    font-size: 20px;
+}
+
+.readmore a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Poppins;
+    color: #2ECB89;
+}
+
+.readmore a:hover{
+    color: #25aa73;
+}
+
+/* share */
+.share{
+    margin-left: 110px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.share p{
+    color: #787878;
+    font-size: 25px;
+}
+
+.share .icon-foot img{
+    width: 35px;
+    height: 35px;
+}
+
+.share .iconfoot{
+    padding-block: 10px;
+    padding-inline: 10px;
+    margin-right: 10px;
+    background-color: #afafaf;
+    border-radius: 50%;
+}
+
+.share .iconfoot:hover, footer .iconfoot2:hover{
+    background-color: #2ECB89;
+}
+
+.content14 .container-fluid{
+    padding-left: 0px;
+    background: #ffffff;
+}
+
+.content14 a p{
+    text-decoration: none;
+    font-size: 23px;
+    color: #8F8F8F;
+    margin-inline: 20px;
+}
+.content14 .row{
+    padding-top: 15px;
+    padding-right: 0px;
+}
+
+.content14 .gambar3{
+    padding-left: 110px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+}
+
+.content14 .card{
+    padding-inline: 0px;
+    border-radius: 7%;
+    border: none;
+    background: #ffffff;
+    margin-inline: 15px;
+    margin-bottom: 15px;
+}
+
+.content14 .card-body{
+    padding-left: 0px;
+    max-height: 150px;
+}
+
+.card-img-top{
+    max-height: 406px;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.content14 .card a{
+    text-decoration: none;
+}
+
+.content14 .card-body h5{
+    font-family: Poppins;
+    font-size: 20px;
+    color: #404040;
+    font-weight: 500;
+}
+
+.content14 .card-body a h5:hover{
+    color:#2ECB89;
+}
+
+.content14 .card-body p{
+    font-family: Poppins;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #787878;
+}
+
+.content14 .col-9 p, .col-1 p{
+    font-size: 20px;
+    color: #787878;
+}
+
+.content14 .col-2 a{
+    text-decoration: none;
+    padding-inline: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #787878;
+    font-family: poppins;
+}
+
+.content14 .col-2 a:hover,
+.content14 .col-2 a.active{
+    color: #2ECB89;
+}
+
+/* footer */
+footer .container-fluid{
+    padding-top: 60px;
+    padding-left: 0px;
+    background: #153F5A;
+}
+
+footer .col-5{
+    padding-left:70px;
+    padding-right: 20px;
+}
+
+footer p{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: left;
+}
+
+footer h4{
+    color: #ffffff;
+}
+
+footer .icon-foot img{
+    width: 35px;
+    height: 35px;
+}
+
+footer .iconfoot{
+    padding-block: 10px;
+    padding-inline: 10px;
+    margin-right: 10px;
+    background-color: #6b8494;
+    border-radius: 50%;
+}
+
+footer .iconfoot:hover, footer .iconfoot2:hover{
+    background-color: #2ECB89;
+}
+
+footer .footer-wraper{
+    padding-top: 0px;
+}
