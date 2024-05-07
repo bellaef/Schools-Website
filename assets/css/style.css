@@ -415,7 +415,6 @@ img.gambar.mbak3{
 }
 
 .content6 .card img{
-    max-height: 406px;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
 }
@@ -424,6 +423,13 @@ img.gambar.mbak3{
     max-height: 130px;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
+}
+
+.card-img-top{
+    max-height: 406px;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
 }
 
 .content6 .card-body h5{
